@@ -1552,7 +1552,7 @@ span {
       font-size: 1.8vw;
 
   }
-
+  
 }
 
 
@@ -1605,11 +1605,9 @@ h1 {
 /* @@@@@@@@@@@@@@@@@@@@@@ footer end CSS  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 /* For mobile phones: */
-@media (max-width: 480px)  {
+@media (min-width: 480px)  and (max-width: 1200px) {
 
-  #navbar{
-    
-  }
+  
 
   #slidnav{
     font-size: 3vw;
@@ -1694,7 +1692,7 @@ font-size: 3vw;
  }
  #imagetextcenter{
   position: absolute;
-  top: 137%;
+  top: 174%;
   left: 49%;
   transform: translate(-50%, -50%);
   font-size: 7vw;
@@ -1757,6 +1755,50 @@ width: 10%;
 
  }
 
+ .fixfinalpart{
+  font-size: 2.5vw;
+  padding-left: 30px;
+}
+.fixfinalpart2{
+  margin-left: 201px;
+  font-size: 2.4vw;
+}
+.Grid{
+  padding-left: 87px;
+  display: grid;
+  grid-template-columns: 282px;
+  grid-template-rows: 164px 164px 178px;
+  gap: 15px;
+  padding-top: 10px;
+  height: 600px;
+
+}
+
+#color1{
+  font-size: 2.1vw;
+}
+
+
+#color2{
+  font-size: 2.7vw;
+}
+
+#color3{
+  font-size: 2.4vw;
+  font-weight: 200;
+}
+
+.textflexdown{
+  font-size: 3.8vw;
+  padding-top: 3px;
+}
+#buttondown2{
+  font-size: 3vw;
+  font-weight: 300;
+}
+
+
+
 #datefix{
 
 font-size: 2.5vw;
@@ -1800,6 +1842,7 @@ font-size: 2.5vw;
   }
   
 
+  
   
 
 
